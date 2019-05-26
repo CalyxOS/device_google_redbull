@@ -630,3 +630,5 @@ BOARD_BUILD_VENDOR_RAMDISK_IMAGE := true
 
 # Testing related defines
 BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/b5r3-setup.sh
+
+include device/google/redbull/BoardConfig-calyx.mk
