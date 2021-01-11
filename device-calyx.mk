@@ -8,6 +8,11 @@ PRODUCT_COPY_FILES += \
 
 TARGET_PREBUILT_KERNEL := device/google/redbull-kernel/Image.lz4
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/qcom/opensource/commonsys-intf/display \
+    vendor/qcom/opensource/display
+
 # Build necessary packages for system_ext
 
 # Display
