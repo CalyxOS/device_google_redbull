@@ -150,7 +150,6 @@ BOOT_KERNEL_MODULES := \
 	subsystem_notif.ko \
 	ramdump.ko \
 	msm_memshare.ko \
-	msm_bus_dbg_rpmh.ko \
 	msm_bus_rpmh.ko \
 	rpmh-regulator.ko \
 	qcom-geni-se.ko \
@@ -207,7 +206,6 @@ BOOT_KERNEL_MODULES := \
 	glink_pkt.ko \
 	smp2p_sleepstate.ko \
 	event_timer.ko \
-	lpm-stats.ko \
 	msm_pm.ko \
 	rpmh_master_stat.ko \
 	system_pm.ko \
@@ -312,7 +310,6 @@ BOOT_KERNEL_MODULES := \
 	leds-qpnp-flash-common.ko \
 	leds-qpnp-flash-v2.ko \
 	of_slimbus.ko \
-	tz_log.ko \
 	google_wlan_mac.ko \
 	msm_ext_display.ko \
 	msm_qmp.ko \

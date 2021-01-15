@@ -66,14 +66,12 @@ kernel/drivers/soc/qcom/qcom_socinfo.ko
 kernel/drivers/soc/qcom/watchdog_v2.ko
 kernel/drivers/soc/qcom/msm_bus/msm_bus.ko
 kernel/drivers/soc/qcom/msm_bus/msm_bus_rpmh.ko
-kernel/drivers/soc/qcom/msm_bus/msm_bus_dbg_rpmh.ko
 kernel/drivers/soc/qcom/fsa4480-i2c.ko
 kernel/drivers/soc/qcom/glink_probe.ko
 kernel/drivers/soc/qcom/glink_pkt.ko
 kernel/drivers/soc/qcom/smp2p_sleepstate.ko
 kernel/drivers/soc/qcom/system_pm.ko
 kernel/drivers/soc/qcom/event_timer.ko
-kernel/drivers/soc/qcom/lpm-stats.ko
 kernel/drivers/soc/qcom/rpmh_master_stat.ko
 kernel/drivers/soc/qcom/rpm_stats.ko
 kernel/drivers/soc/qcom/ddr_stats.ko
@@ -180,7 +178,6 @@ kernel/drivers/cpuidle/msm_pm.ko
 kernel/drivers/leds/leds-qpnp-flash-v2.ko
 kernel/drivers/leds/leds-qpnp-flash-common.ko
 kernel/drivers/firmware/msm_scm.ko
-kernel/drivers/firmware/qcom/tz_log.ko
 kernel/drivers/of/of_slimbus.ko
 kernel/drivers/of/of_batterydata.ko
 kernel/drivers/staging/android/ion/ion-alloc.ko
