@@ -16,6 +16,7 @@
 
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.lz4
+ifneq ($(INLINE_KERNEL_BUILDING),false)
 KERNEL_LD := LD=ld.lld
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/linux-x86/dtc/dtc
@@ -30,3 +31,4 @@ KERNEL_MODULES_LOAD_RAW := $(strip $(shell cat device/google/redbull/modules.loa
 KERNEL_MODULES_LOAD := $(foreach m,$(KERNEL_MODULES_LOAD_RAW),$(notdir $(m)))
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(filter-out $(BOOT_KERNEL_MODULES), $(KERNEL_MODULES_LOAD))
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(filter $(BOOT_KERNEL_MODULES), $(KERNEL_MODULES_LOAD))
+endif
