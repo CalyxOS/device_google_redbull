@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ada8118_d07a36f7",
+        "filename": "BoardConfig-common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 481,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-30T15:49:46Z",
+      "side": 1,
+      "message": "Should figure out why they do this",
+      "revId": "53cc8daa2a55a737a6c396e2677154deb572a0d8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4571a2d6_2eee5a0c",
+        "filename": "device-common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-30T15:49:46Z",
+      "side": 1,
+      "message": "This is set to a different value in the device-specific trees but this should override that",
+      "revId": "53cc8daa2a55a737a6c396e2677154deb572a0d8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
