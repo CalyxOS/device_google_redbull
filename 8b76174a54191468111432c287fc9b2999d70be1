@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e4ce4c2_701bc3bf",
+        "filename": "BoardConfig-common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 485,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-30T16:24:18Z",
+      "side": 1,
+      "message": "Re-added this everywhere for quick testing with AOSP kernel repos",
+      "revId": "8b76174a54191468111432c287fc9b2999d70be1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
