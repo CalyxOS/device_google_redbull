@@ -478,17 +478,17 @@ TARGET_BOARD_INFO_FILE := $(TARGET_BOARD_NAME_DIR)/board-info.txt
 TARGET_BOARD_COMMON_PATH := $(TARGET_BOARD_NAME_DIR)/sm7250
 
 # Common kernel file handling
-TARGET_KERNEL_DIR := $(TARGET_BOARD_NAME_DIR:%/=%)-kernel
+TARGET_KERNEL_DIR := device/google/redbull-kernel
 
 # DTBO partition definitions
 ifneq ($(INLINE_KERNEL_BUILDING),true)
-BOARD_PREBUILT_DTBOIMAGE := $(TARGET_KERNEL_DIR)/vintf/dtbo.img
+BOARD_PREBUILT_DTBOIMAGE := $(TARGET_KERNEL_DIR)/dtbo.img
 endif
 TARGET_FS_CONFIG_GEN := $(TARGET_BOARD_NAME_DIR)/config.fs
 
 # Kernel modules
 ifneq ($(INLINE_KERNEL_BUILDING),true)
-KERNEL_MODULE_DIR := $(TARGET_KERNEL_DIR)/vintf
+KERNEL_MODULE_DIR := $(TARGET_KERNEL_DIR)
 
 # Copy kheaders.ko to vendor/lib/modules for VTS test
 BOARD_VENDOR_KERNEL_MODULES += $(KERNEL_MODULE_DIR)/kheaders.ko
@@ -497,7 +497,7 @@ KERNEL_MODULES := $(wildcard $(KERNEL_MODULE_DIR)/*.ko)
 KERNEL_MODULES_LOAD := $(strip $(shell cat $(firstword $(wildcard \
         $(KERNEL_MODULE_DIR)/modules.load \
         $(if $(filter userdebug eng,$(TARGET_BUILD_VARIANT)), \
-            $(TARGET_KERNEL_DIR)/vintf/modules.load,) \
+            $(TARGET_KERNEL_DIR)/modules.load,) \
         $(TARGET_KERNEL_DIR)/modules.load))))
 
 # DTB
