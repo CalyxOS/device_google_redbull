@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "e12eafe9_76c930ae",
+        "filename": "BoardConfig-common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 481,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-03-18T15:38:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ada8118_d07a36f7",
+      "revId": "53cc8daa2a55a737a6c396e2677154deb572a0d8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4571a2d6_2eee5a0c",
         "filename": "device-common.mk",
         "patchSetId": 1
@@ -33,6 +51,24 @@
       "revId": "53cc8daa2a55a737a6c396e2677154deb572a0d8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "84098c31_7943cf79",
+        "filename": "device-common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-03-18T15:38:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4571a2d6_2eee5a0c",
+      "revId": "53cc8daa2a55a737a6c396e2677154deb572a0d8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
     }
   ]
 }
