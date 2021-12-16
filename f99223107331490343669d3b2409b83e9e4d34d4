@@ -16,6 +16,24 @@
       "message": "Put below DEVICE_PACKAGE_OVERLAYS",
       "revId": "f99223107331490343669d3b2409b83e9e4d34d4",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d6fa417_645567f9",
+        "filename": "device-calyx.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-16T16:16:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6544252d_644f5623",
+      "revId": "f99223107331490343669d3b2409b83e9e4d34d4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
