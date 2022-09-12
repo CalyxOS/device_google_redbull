@@ -68,6 +68,11 @@ PRODUCT_PACKAGES += \
     libmedia_ecoservice.vendor \
     libstagefright_bufferpool@2.0.1.vendor
 
+# Confirmation UI
+PRODUCT_PACKAGES += \
+    android.hardware.confirmationui@1.0.vendor:64 \
+    libteeui_hal_support.vendor:64
+
 # Display
 PRODUCT_PACKAGES += \
     com.google.hardware.pixel.display-V1-ndk.vendor:64 \
