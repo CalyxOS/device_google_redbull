@@ -19,3 +19,6 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 # SELinux
 BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/dynamic
 BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/vendor
+
+# Needed for camera
+TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
