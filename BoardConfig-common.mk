@@ -529,11 +529,7 @@ else
 endif
 
 # DTBO partition definitions
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
-    BOARD_PREBUILT_DTBOIMAGE := $(TARGET_KERNEL_DIR)/dtbo.img
-else
-    BOARD_PREBUILT_DTBOIMAGE := $(TARGET_KERNEL_DIR)/vintf/dtbo.img
-endif
+BOARD_PREBUILT_DTBOIMAGE := $(TARGET_KERNEL_DIR)/dtbo.img
 TARGET_FS_CONFIG_GEN := $(TARGET_BOARD_NAME_DIR)/config.fs
 
 # Kernel modules
@@ -551,11 +547,7 @@ else ifeq (,$(filter-out $(TARGET_BOOTLOADER_BOARD_NAME)_kernel_debug_hang, $(TA
 else ifeq (,$(filter-out $(TARGET_BOOTLOADER_BOARD_NAME)_kernel_debug_api, $(TARGET_PRODUCT)))
     KERNEL_MODULE_DIR := $(TARGET_KERNEL_DIR)/debug_api
 else
-    ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
-        KERNEL_MODULE_DIR := $(TARGET_KERNEL_DIR)
-    else
-        KERNEL_MODULE_DIR := $(TARGET_KERNEL_DIR)/vintf
-    endif
+    KERNEL_MODULE_DIR := $(TARGET_KERNEL_DIR)
 endif
 
 # Copy kheaders.ko to vendor/lib/modules for VTS test
@@ -564,8 +556,6 @@ BOARD_VENDOR_KERNEL_MODULES += $(KERNEL_MODULE_DIR)/kheaders.ko
 KERNEL_MODULES := $(wildcard $(KERNEL_MODULE_DIR)/*.ko)
 KERNEL_MODULES_LOAD := $(strip $(shell cat $(firstword $(wildcard \
         $(KERNEL_MODULE_DIR)/modules.load \
-        $(if $(filter userdebug eng,$(TARGET_BUILD_VARIANT)), \
-            $(TARGET_KERNEL_DIR)/vintf/modules.load,) \
         $(TARGET_KERNEL_DIR)/modules.load))))
 
 # DTB
