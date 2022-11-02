@@ -14,7 +14,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/google/redbull/permissions/permissions_com.android.hbmsvmanager.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/permissions_com.android.hbmsvmanager.xml
 
-TARGET_PREBUILT_KERNEL := device/google/redbull-kernel/vintf/Image.lz4
+TARGET_PREBUILT_KERNEL := device/google/redbull-kernel/Image.lz4
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
