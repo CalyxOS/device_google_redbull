@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "81089600_3f5bec5c",
+        "filename": "default-permissions.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-14T13:42:56Z",
+      "side": 0,
+      "message": "This is what was added here, we may want it in another file.",
+      "revId": "1d6bf2d4bce755f6034fab431482123165002bd9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
