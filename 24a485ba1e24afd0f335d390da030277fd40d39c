@@ -70,6 +70,24 @@
       "parentUuid": "749af7d8_d80742e8",
       "revId": "24a485ba1e24afd0f335d390da030277fd40d39c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f72abad2_e3eefcfc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-05-03T19:44:34Z",
+      "side": 1,
+      "message": "I see there\u0027s also NORMAL_PSDS_SERVER and REALTIME_PSDS_SERVER, neither of which do anything either.\n\nTo me this looks like maybe an in-framework implementation of the same kind of thing that xtra-daemon does, but maybe not used for this device... Notice it has its own downloader, too: https://cs.android.com/android/platform/superproject/+/refs/heads/master:frameworks/base/services/core/java/com/android/server/location/gnss/GnssPsdsDownloader.java",
+      "parentUuid": "77a03c25_475cb253",
+      "revId": "24a485ba1e24afd0f335d390da030277fd40d39c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
