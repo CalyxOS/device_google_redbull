@@ -34,6 +34,24 @@
       "parentUuid": "263c9975_ae6afae8",
       "revId": "24a485ba1e24afd0f335d390da030277fd40d39c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "749af7d8_d80742e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-03T18:41:57Z",
+      "side": 1,
+      "message": "You can also just skip to loadPropertiesFromGpsDebugConfig a few lines below, which loads from `/etc/gps_debug.conf`",
+      "parentUuid": "c019b54a_d0b75429",
+      "revId": "24a485ba1e24afd0f335d390da030277fd40d39c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
