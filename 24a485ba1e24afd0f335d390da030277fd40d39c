@@ -52,6 +52,24 @@
       "parentUuid": "c019b54a_d0b75429",
       "revId": "24a485ba1e24afd0f335d390da030277fd40d39c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "77a03c25_475cb253",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-05-03T19:29:50Z",
+      "side": 1,
+      "message": "Right. I ended up adding debug log lines to get more info, e.g. to output mProperties.\n\nWith them, I can see that the properties are being set (they\u0027re in mProperties), but they are apparently not being used (not queried or accessed, still just path*.xtracloud.net), even if the carrier config loading at the top is commented out.",
+      "parentUuid": "749af7d8_d80742e8",
+      "revId": "24a485ba1e24afd0f335d390da030277fd40d39c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
