@@ -16,6 +16,24 @@
       "message": "What about https://review.lineageos.org/c/LineageOS/android_device_bq_msm8953-common/+/347717 on top of this?",
       "revId": "24a485ba1e24afd0f335d390da030277fd40d39c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c019b54a_d0b75429",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-05-03T18:25:07Z",
+      "side": 1,
+      "message": "Same result, but I wonder if a carrier config is interfering here: https://cs.android.com/android/platform/superproject/+/android-13.0.0_r42:frameworks/base/services/core/java/com/android/server/location/gnss/GnssConfiguration.java;l\u003d262;bpv\u003d0;bpt\u003d0\n\nI do have a SIM in.\n\nI\u0027ll look into that.",
+      "parentUuid": "263c9975_ae6afae8",
+      "revId": "24a485ba1e24afd0f335d390da030277fd40d39c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
