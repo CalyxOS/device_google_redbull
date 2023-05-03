@@ -16,6 +16,23 @@
       "message": "This is what I tried on bramble - was I doing this right? It does create the file /system/etc/gps_debug.conf, but it doesn\u0027t change any behavior.",
       "revId": "28a7d2c2e6dd741bf60e6d6e6b18e2183c4f0ba8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a18bbdb9_9bde1444",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-05-03T17:41:53Z",
+      "side": 1,
+      "message": "You\u0027ll need to update XTRA_SERVER_* for S",
+      "revId": "28a7d2c2e6dd741bf60e6d6e6b18e2183c4f0ba8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
