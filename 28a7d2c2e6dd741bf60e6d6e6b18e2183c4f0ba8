@@ -33,6 +33,24 @@
       "message": "You\u0027ll need to update XTRA_SERVER_* for S",
       "revId": "28a7d2c2e6dd741bf60e6d6e6b18e2183c4f0ba8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "096b2301_2890ee31",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-05-03T18:03:44Z",
+      "side": 1,
+      "message": "Also not working, and it still uses time.google.com too.",
+      "parentUuid": "a18bbdb9_9bde1444",
+      "revId": "28a7d2c2e6dd741bf60e6d6e6b18e2183c4f0ba8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
