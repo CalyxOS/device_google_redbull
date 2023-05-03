@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "263c9975_ae6afae8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-05-03T18:08:29Z",
+      "side": 1,
+      "message": "What about https://review.lineageos.org/c/LineageOS/android_device_bq_msm8953-common/+/347717 on top of this?",
+      "revId": "24a485ba1e24afd0f335d390da030277fd40d39c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
