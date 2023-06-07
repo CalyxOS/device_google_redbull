@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- for the partition: /system_ext -->
+<permissions>
+    <privapp-permissions package="com.google.android.grilservice">
+        <!-- First tested in TQ3A.230705.001 as unneeded for AT&T -->
+        <deny-permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <deny-permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+</permissions>
