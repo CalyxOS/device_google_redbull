@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- for the partition: /system_ext -->
+<permissions>
+    <privapp-permissions package="com.verizon.mips.services">
+        <deny-permission name="android.permission.BATTERY_STATS"/>
+        <deny-permission name="android.permission.CLEAR_APP_CACHE"/>
+        <deny-permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <deny-permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS"/>
+        <deny-permission name="android.permission.DELETE_PACKAGES"/>
+        <deny-permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <deny-permission name="android.permission.MANAGE_SUBSCRIPTION_PLANS"/>
+        <deny-permission name="android.permission.MANAGE_USERS"/>
+        <deny-permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <deny-permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <deny-permission name="android.permission.READ_NETWORK_USAGE_HISTORY"/>
+        <deny-permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <deny-permission name="android.permission.REAL_GET_TASKS"/>
+        <deny-permission name="android.permission.RECEIVE_DATA_ACTIVITY_CHANGE"/>
+        <deny-permission name="android.permission.REBOOT"/>
+        <deny-permission name="android.permission.SET_TIME"/>
+        <!-- Deny INSTALL_PACKAGES permission due to security concern. b/36730743 -->
+        <deny-permission name="android.permission.INSTALL_PACKAGES"/> -->
+        <!-- Deny following permissions per b/68959671 cmt 27 -->
+        <deny-permission name="android.permission.DUMP"/>
+        <deny-permission name="android.permission.READ_FRAME_BUFFER"/>
+        <deny-permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <deny-permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+</permissions>
