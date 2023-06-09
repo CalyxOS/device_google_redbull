@@ -33,6 +33,24 @@
       "message": "(Wi-Fi Calling is still able to activate with these replaced with deny-permission btw)",
       "revId": "0758e95bc3fb86c0f23b99abeefc0cddb5f9f326",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "527b06f4_0eebd1c3",
+        "filename": "permissions/permissions_com.verizon.mips.services.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-06-09T21:02:45Z",
+      "side": 1,
+      "message": "(I don\u0027t know how to un-grant those permissions, without looking into it more; it appears to be automatic.)\n\nI wonder if this app would still function as a non-privapp, too, if that\u0027s something that could be tried. (I would need to look into that a little, too.)",
+      "parentUuid": "dca848de_cd94a28f",
+      "revId": "0758e95bc3fb86c0f23b99abeefc0cddb5f9f326",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
