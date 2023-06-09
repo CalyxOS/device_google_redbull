@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dca848de_cd94a28f",
+        "filename": "permissions/permissions_com.verizon.mips.services.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-06-09T20:59:12Z",
+      "side": 1,
+      "message": "I changed everything in here to deny-permission, but the app still appears to have an amount of access that could hopefully be trimmed down further...\n\n```\n    install permissions:\n      com.verizon.mips.services.feature_change_permission: granted\u003dtrue\n      android.permission.WRITE_SETTINGS: granted\u003dtrue\n      com.google.android.c2dm.permission.RECEIVE: granted\u003dtrue\n      android.permission.MODIFY_AUDIO_SETTINGS: granted\u003dtrue\n      com.verizon.mips.services.install_status_permission: granted\u003dtrue\n      android.permission.CHANGE_NETWORK_STATE: granted\u003dtrue\n      android.permission.FOREGROUND_SERVICE: granted\u003dtrue\n      android.permission.RECEIVE_BOOT_COMPLETED: granted\u003dtrue\n      android.permission.BLUETOOTH: granted\u003dtrue\n      com.vzw.services.lc.SWITCH_ENV: granted\u003dtrue\n      android.permission.GET_TASKS: granted\u003dtrue\n      android.permission.INTERNET: granted\u003dtrue\n      android.permission.BLUETOOTH_ADMIN: granted\u003dtrue\n      com.verizon.svcs.fdo.FA_SWITCH_ENV: granted\u003dtrue\n      com.verizon.mips.services.download_status_permission: granted\u003dtrue\n      android.permission.GET_PACKAGE_SIZE: granted\u003dtrue\n      com.verizon.mips.services.RECEIVE_SUW_CARRIER_SCREENS_UPDATE: granted\u003dtrue\n      android.permission.USE_FULL_SCREEN_INTENT: granted\u003dtrue\n      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS: granted\u003dtrue\n      android.permission.CHANGE_WIFI_STATE: granted\u003dtrue\n      com.verizon.mips.services.COMPONENT_STATUS: granted\u003dtrue\n      android.permission.ACCESS_BLUETOOTH_SHARE: granted\u003dtrue\n      android.permission.ACCESS_NETWORK_STATE: granted\u003dtrue\n      android.permission.KILL_BACKGROUND_PROCESSES: granted\u003dtrue\n      android.permission.USE_FINGERPRINT: granted\u003dtrue\n      com.verizon.vzwavs.mvs.permission.WRITE: granted\u003dtrue\n      android.permission.VIBRATE: granted\u003dtrue\n      com.verizon.services.eps.EPS_SWITCH_ENV: granted\u003dtrue\n      com.verizon.mips.services.sku_launch: granted\u003dtrue\n      android.permission.ACCESS_WIFI_STATE: granted\u003dtrue\n      android.permission.USE_BIOMETRIC: granted\u003dtrue\n      android.permission.QUERY_ALL_PACKAGES: granted\u003dtrue\n      android.permission.WAKE_LOCK: granted\u003dtrue\n```",
+      "revId": "0758e95bc3fb86c0f23b99abeefc0cddb5f9f326",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
