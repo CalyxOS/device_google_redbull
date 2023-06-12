@@ -51,6 +51,24 @@
       "parentUuid": "dca848de_cd94a28f",
       "revId": "0758e95bc3fb86c0f23b99abeefc0cddb5f9f326",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8bd5f728_e73f8ad7",
+        "filename": "permissions/permissions_com.verizon.mips.services.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-06-12T16:43:26Z",
+      "side": 1,
+      "message": "If adding e.g. `android.permission.INTERNET` and `android.permission.QUERY_ALL_PACKAGES` as `\u003cdeny-permission\u003e` entries, this does not seem to have an effect. Although they correctly appear in `adb shell pm get-privapp-deny-permissions com.verizon.mips.services`, they are still granted, according to `adb shell dumpsys package com.verizon.mips.services`.",
+      "parentUuid": "527b06f4_0eebd1c3",
+      "revId": "0758e95bc3fb86c0f23b99abeefc0cddb5f9f326",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
