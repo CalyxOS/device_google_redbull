@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- for the partition: /product -->
+<permissions>
+    <privapp-permissions package="com.verizon.services">
+        <!-- First tested in TQ3A.230705.001 as unneeded for VZW (applies to all below) -->
+        <deny-permission name="android.permission.CARRIER_FILTER_SMS"/>
+    </privapp-permissions>
+</permissions>

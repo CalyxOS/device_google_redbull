@@ -10,12 +10,20 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml \
     device/google/redbull/permissions/permissions_com.google.android.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/permissions_com.google.android.euicc.xml
 
-# Wi-Fi Calling - AT&T
+# Wi-Fi Calling - AT&T, VZW
 PRODUCT_COPY_FILES += \
     device/google/redbull/permissions/permissions_com.google.android.wfcactivation.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/permissions_com.google.android.wfcactivation.xml \
     device/google/redbull/permissions/permissions_com.google.android.carriersetup.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/permissions_com.google.android.carriersetup.xml \
     device/google/redbull/permissions/permissions_com.google.android.partnersetup.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/permissions_com.google.android.partnersetup.xml \
     device/google/redbull/permissions/permissions_com.google.android.grilservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/permissions_com.google.android.grilservice.xml
+
+# Wi-Fi Calling - VZW
+PRODUCT_COPY_FILES += \
+    device/google/redbull/permissions/permissions_com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/permissions_com.android.omadm.service.xml \
+    device/google/redbull/permissions/permissions_com.google.omadm.trigger.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/permissions_com.google.omadm.trigger.xml \
+    device/google/redbull/permissions/permissions_com.verizon.services.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/permissions_com.verizon.services.xml \
+    device/google/redbull/permissions/permissions_com.verizon.mips.services.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/permissions_com.verizon.mips.services.xml \
+    device/google/redbull/permissions/permissions_com.verizon.obdm.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/permissions_com.verizon.obdm.xml
 
 # HBM
 PRODUCT_COPY_FILES += \
