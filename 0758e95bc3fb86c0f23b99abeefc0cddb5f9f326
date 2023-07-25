@@ -87,6 +87,24 @@
       "parentUuid": "8bd5f728_e73f8ad7",
       "revId": "0758e95bc3fb86c0f23b99abeefc0cddb5f9f326",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd4cb350_a7267708",
+        "filename": "permissions/permissions_com.verizon.mips.services.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-25T21:45:14Z",
+      "side": 1,
+      "message": "Ack, comment copied to the VZW change now that these are separate: https://review.calyxos.org/c/CalyxOS/device_google_redbull/+/18653/comments/72cbf69d_1eb3b2dc",
+      "parentUuid": "768c7cad_ffa6e11d",
+      "revId": "0758e95bc3fb86c0f23b99abeefc0cddb5f9f326",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
