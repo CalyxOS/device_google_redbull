@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6a086ca8_01a9da9f",
+        "filename": "permissions/permissions_com.android.omadm.service.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-26T16:19:43Z",
+      "side": 1,
+      "message": "I wonder if we need this either",
+      "revId": "947d633aa681b33f3c77cb893ba5ae994cc1f963",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
