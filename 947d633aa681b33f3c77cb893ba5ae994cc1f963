@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "96b12a4a_b8f062cc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-26T16:27:53Z",
+      "side": 1,
+      "message": "[Possibly useful](https://cs.android.com/android/platform/superproject/+/android-13.0.0_r54:frameworks/base/core/xsd/permission.xsd;l\u003d42-43) as one mechanism to keep the proprietary apps disabled until they\u0027re needed; would need to look into it more:\n\n```\ndisabled-until-used-preinstalled-carrier-associated-app\ndisabled-until-used-preinstalled-carrier-app\n```",
+      "revId": "947d633aa681b33f3c77cb893ba5ae994cc1f963",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6a086ca8_01a9da9f",
         "filename": "permissions/permissions_com.android.omadm.service.xml",
         "patchSetId": 2
