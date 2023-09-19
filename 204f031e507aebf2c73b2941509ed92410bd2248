@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70fea6a0_b8ea478f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-19T11:44:01Z",
+      "side": 1,
+      "message": "No kernel update this month based on prebuilt, so it should be fine.",
+      "revId": "204f031e507aebf2c73b2941509ed92410bd2248",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
