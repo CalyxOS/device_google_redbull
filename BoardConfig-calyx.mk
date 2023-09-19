@@ -26,5 +26,3 @@ BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/vendor
 
 # Needed for camera
 TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
-
-PLATFORM_SECURITY_PATCH := 2023-08-05
