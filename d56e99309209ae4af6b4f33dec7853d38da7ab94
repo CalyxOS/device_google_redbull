@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b39b9489_3d89e448",
+        "filename": "device-calyx.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-12-07T20:18:13Z",
+      "side": 0,
+      "message": "Note: this doesn\u0027t seem to be used on EOL redbull devices",
+      "revId": "d56e99309209ae4af6b4f33dec7853d38da7ab94",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
