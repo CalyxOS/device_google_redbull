@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec520ef8_d826b48d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-06T14:49:11Z",
+      "side": 1,
+      "message": "TODO: Check bramble or redfin",
+      "revId": "aeec7e87cea56d476ce620a352add2fcb4144289",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
