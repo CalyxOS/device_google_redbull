@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "756c7dba_df17dddc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-08T19:24:11Z",
+      "side": 1,
+      "message": "Is this still needed after https://review.calyxos.org/q/Ia55f403319252cea93e8bc3786173c5f8d66fb37 ?",
+      "revId": "de001c0f8202c5a84966c6d8c48ccf8806c8e3eb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
