@@ -34,6 +34,24 @@
       "parentUuid": "756c7dba_df17dddc",
       "revId": "de001c0f8202c5a84966c6d8c48ccf8806c8e3eb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0df6089_2170245d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-08T20:23:34Z",
+      "side": 1,
+      "message": "Hopefully barbet is fine too",
+      "parentUuid": "e94c0a13_173cd8dc",
+      "revId": "de001c0f8202c5a84966c6d8c48ccf8806c8e3eb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
