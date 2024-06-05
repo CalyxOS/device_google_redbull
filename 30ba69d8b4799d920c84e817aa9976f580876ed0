@@ -16,6 +16,24 @@
       "message": "barbet\u0027s last update was supposed to be May 2024. We don\u0027t know if it\u0027ll get QPR3",
       "revId": "30ba69d8b4799d920c84e817aa9976f580876ed0",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4d2f607_43744a33",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-06-05T15:01:17Z",
+      "side": 1,
+      "message": "https://support.google.com/nexus/answer/4457705?hl\u003den#zippy\u003d%2Cpixel-a-g-pixel-pixel-a-g-pixel-a-pixel-xl-pixel says August 2024",
+      "parentUuid": "379e349c_a01cb7cd",
+      "revId": "30ba69d8b4799d920c84e817aa9976f580876ed0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
