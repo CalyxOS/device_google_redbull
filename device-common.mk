@@ -23,7 +23,6 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 TARGET_BOARD_PLATFORM := lito
 
 PRODUCT_SOONG_NAMESPACES += \
-    hardware/google/camera \
     hardware/google/interfaces \
     hardware/google/pixel \
     device/google/redbull \
@@ -446,9 +445,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # To reach target bitrate in CBR mode for IMS VT Call
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.ims.mm_minqp=1
-
-PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.7-service-google
 
 # Google Camera HAL test libraries in debug builds
 PRODUCT_PACKAGES_DEBUG += \
