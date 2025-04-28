@@ -19,9 +19,6 @@ PRODUCT_COPY_FILES += \
 
 TARGET_PREBUILT_KERNEL := device/google/redbull-kernel/vintf/Image.lz4
 
-# Lineage Health
-include hardware/google/pixel/lineage_health/device.mk
-
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
