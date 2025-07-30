@@ -19,11 +19,6 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/allowlist_com.google.android.as.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.google.android.as.xml
 
-# Camera
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
-    ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
-
 # EUICC
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
