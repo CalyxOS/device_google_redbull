@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc7624dd_ca6a4c95",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-04-17T16:46:56Z",
+      "side": 1,
+      "message": "This targets the same level as the other devices, kernel needs to be updated.",
+      "revId": "6318e1bf358ece70d43d61d32da195ced0d49c11",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
