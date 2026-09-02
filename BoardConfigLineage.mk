@@ -7,11 +7,9 @@
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.lz4
 INLINE_KERNEL_BUILDING := true
-TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_CONFIG := redbull_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/redbull
 TARGET_NEEDS_DTBOIMAGE := true
-TARGET_KERNEL_NO_GCC := true
 
 # Kernel modules
 BOOT_KERNEL_MODULES += \
@@ -33,6 +31,7 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 -include vendor/lineage/config/BoardConfigReservedSize.mk
 
 # SELinux
+include device/lineage/sepolicy/libion/sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/dynamic
 BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/vendor
 

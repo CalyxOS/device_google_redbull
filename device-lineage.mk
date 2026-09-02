@@ -27,6 +27,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/google/redbull/permissions/permissions_com.android.hbmsvmanager.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/permissions_com.android.hbmsvmanager.xml
 
+# ION
+$(call soong_config_set_bool,libion,legacy_impl,true)
+
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay-service.sdm
@@ -50,6 +53,8 @@ include hardware/google/pixel/touch/device.mk
 # CHRE
 PRODUCT_PACKAGES += \
     chre_daemon_msm
+
+$(call soong_config_set_bool,chre,chre_daemon_load_into_sensorspd,true)
 
 # Display
 $(call soong_config_set,qtidisplay,default,true)

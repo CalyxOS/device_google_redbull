@@ -26,6 +26,11 @@ PRODUCT_SOONG_NAMESPACES += \
     device/google/redbull \
     hardware/google/interfaces \
     hardware/google/pixel \
+    hardware/google/pixel/health \
+    hardware/google/pixel/pixelstats \
+    hardware/google/pixel/power-libperfmgr \
+    hardware/google/pixel/thermal \
+    hardware/google/pixel/usb \
     hardware/qcom/sm7250/display \
     hardware/qcom/sm7250/gps \
     hardware/qcom/wlan \
@@ -87,7 +92,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.hardware.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.$(PRODUCT_PLATFORM).usb.rc \
     $(LOCAL_PATH)/init.insmod.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.insmod.sh \
     $(LOCAL_PATH)/init.sensors.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.sensors.sh \
-    $(LOCAL_PATH)/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc \
+    $(LOCAL_PATH)/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
 		$(LOCAL_PATH)/init.ramoops.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.ramoops.sh
 
 
@@ -304,9 +309,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.snapshot_enabled=0 \
     persist.vendor.radio.snapshot_timer=0
-
-# Kernel
-PRODUCT_ENABLE_UFFD_GC := true
 
 # Memtrack HAL
 PRODUCT_PACKAGES += \
